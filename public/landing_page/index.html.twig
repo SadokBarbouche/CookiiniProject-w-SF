@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookiini</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="img/4 (3).png" type="image/gif" sizes="16x16">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@900&display=swap" rel="stylesheet">
+</head>
+
+<body style="background-color:rgb(255, 129, 101)">
+
+<nav class="navbar navbar-expand-lg bg-transparent navbar-light animate glow delay-2 mb-5 pb-5" >
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand mt-1" href="#">
+        </a>
+
+
+        <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item mx-1 mt-1 bg-transparent">
+                    <a href="index.html" style="color:#000000" class="hover-underline-animation text fs-6"  id="home">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item mx-0 mt-1 bg-transparent">
+                    <a href="{{asset('')}}" style="color:#000000" class="hover-underline-animation text fs-6" id="community">
+                        Community
+                    </a>
+                </li>
+                <li class="nav-item mx-1 mt-1 bg-transparent ">
+                    <a href="meals.php" style="color:#000000" class="hover-underline-animation text fs-6" id="meals">
+                        Meals
+                    </a>
+                </li>
+                <li class="nav-item mx-1 mt-1 bg-transparent">
+                    <a href="blog.php" style="color:#000000" class="hover-underline-animation text fs-6"  id="blog">
+                        Blog
+                    </a>
+                </li>
+                <li class="nav-item mx-1 mt-1 bg-transparent">
+                    <a href="contact.php" style="color:#000000" class="hover-underline-animation text fs-6" id="contact">
+                        Contact
+                    </a>
+                </li>
+                <li class="nav-item mx-1 mt-1"><a href="" class="rounded-pill text fs-6">
+                        Sign in
+                    </a></li>
+                <li class="nav-item mx-1 mt-1 text fs-6" style="background-color: #000;"><a href="login.php" class="rounded-pill text fs-6" style="color:white;">
+                        Log in
+                    </a></li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container container-fluid small shade5 my-5 py-5">
+    <div class="row">
+        <div class="animate glow delay-3 col-sm text-center">
+            <img src="img/4 (3).png" class="img-fluid text-center w-50 md-mb-5" alt="logo-img">
+        </div>
+        <div class="col-sm animate glow delay-2">
+            <p class="title text-center display-1" style="font-family: 'Source Sans 3', sans-serif; color:#FFF9F0;">
+                COOKIINI <br>
+                <span style="font-family: 'Quicksand'; color:#FFF9F0" class="text-center display-6">
+            Be your own Chef.
+          </span>
+            </p>
+            <p class="text-center animate glow delay-2 explore-btn">
+                <a href="index.html#hwto" style="text-decoration:none; color: #000000;">Explore <svg
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-chevron-doub le-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                              d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                        <path fill-rule="evenodd"
+                              d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                    </svg></a>
+            </p>
+        </div>
+
+    </div>
+</div>
+
+<div style="background-color: #EEEEEE;" id="hwto" data-aos="fade-up" data-aos-duration="1300">
+    <div class="container pt-4" style="background-color: #EEEEEE;">
+        <div>
+            <h1 class="text-center display-6 how2" style="color: #FF8165;"><b>How to ?</b></h1>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <center>
+                    <img src="img/step1.png" data-aos="fade-down" data-aos-duration="2000" class="img-fluid" alt="">
+                </center>
+                <p class="text text-center">
+                    Browse our different meal categories
+                </p>
+            </div>
+            <div class="col-sm">
+                <center>
+                    <img src="img/step2.png" data-aos="fade-up" data-aos-duration="2000" alt="" class="img-fluid ">
+                </center>
+
+                <p class="text text-center">
+                    Get your meal package within 24 hours
+                </p>
+            </div>
+            <div class="col-sm">
+                <center>
+                    <img src="img/step3.png" data-aos="fade-down" data-aos-duration="2000" alt="" class="img-fluid" >
+                </center>
+                <p class="text text-center">
+                    Enjoy making your meal
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    <div class="container" data-aos="fade-up" data-aos-duration="1300">
+        <div class="pt-3">
+            <h1 class="text-center display-5" style="color: #EEEEEE;"><b>What are we ?</b></h1>
+        </div>
+        <div class="row ">
+            <div class="col-md-4 mb-5">
+                <img src="img/wrwe.png" class="img-fluid w-100 " alt="what are we?">
+            </div>
+            <div class="col col-md mt-5">
+                <p>
+                    Lorem ipsum dolor sit amet. Id dolor necessitatibus ut harum pariatur et officiis suscipit et atque
+                    voluptatibus nam magni doloribus eos tenetur omnis. Ea perspiciatis necessitatibus ea doloremque eius eum
+                    illo sint et voluptas ratione et laudantium earum?</p>
+            </div>
+        </div>
+    </div>
+
+    <div style=" background-color: #FFF9F0;" data-aos="fade-up" data-aos-duration="1300">
+        <div class="container x">
+            <div class="pt-5">
+                <h1 class="text-center display-5" style="color: #FF8165;"><b>About our platform ?</b></h1>
+            </div>
+            <div class="row ">
+                <div class="col col mt-5 descript">
+                    <p>
+                        Lorem ipsum dolor sit amet. Id dolor necessitatibus ut harum pariatur et officiis suscipit et atque
+                        voluptatibus nam magni doloribus eos tenetur omnis. Ea perspiciatis necessitatibus ea doloremque eius
+                        eum
+                        illo sint et voluptas ratione et laudantium earum?</p>
+                </div>
+                <div class="col mb-5">
+                    <img src="img/abt.png" class="img-fluid mt-5" alt="what are we?">
+                </div>
+            </div>
+        </div>
+
+        <div style="background-color:rgb(255, 129, 101)" data-aos="fade-up" data-aos-duration="1300">
+            <div class="container container-fluid">
+                <div class="pt-5">
+                    <h1 class="text-center display-5" style="color: #EEEEEE;"><b>About our products</b></h1>
+                </div>
+                <div class="row ">
+                    <div class="col mb-5 text-center">
+                        <img src="img/abtproduct.png" class=" product mt-5 img-fluid" alt="what are we?">
+                    </div>
+                    <div class="col col mt-5 text-center">
+                        <p>
+                            Lorem ipsum dolor sit amet. Id dolor necessitatibus ut harum pariatur et officiis suscipit et atque
+                            voluptatibus nam magni doloribus eos tenetur omnis. Ea perspiciatis necessitatibus ea doloremque
+                            eius
+                            eum illo sint et voluptas ratione et laudantium earum?</p>
+                    </div>
+
+                </div>
+            </div>
+            <div style="background-color: #FFF9F0;" id="onsocial" class="py-5" data-aos="fade-up" data-aos-duration="2000">
+                <div class="container">
+                    <div>
+                        <h1 class="text-center display-5" style="color: #FF8165;"><b>Find us on social media </b></h1>
+                    </div>
+                    <div class="row">
+                        <div class="col py-5">
+                            <a href=""><img src="img/facebook.png" data-aos="fade-down" data-aos-duration="2000" class="socialmedia  img-fluid" alt=""></a>
+                        </div>
+                        <div class="col py-5">
+                            <a href=""><img src="img/insta.png" data-aos="fade-down" data-aos-duration="2000" class="socialmedia img-fluid" alt=""></a>
+                        </div>
+                        <div class="col py-5">
+                            <a href=""><img src="img/linkedin.png" data-aos="fade-down" data-aos-duration="2000" class="socialmedia  img-fluid" alt=""></a>
+                        </div>
+                    </div>
+                    <hr class="bg-danger border-2 border-top border-danger">
+                    <div>
+                        <p class="text text-center">
+                            Lorem ipsum dolor sit amet. Id dolor necessitatibus ut harum pariatur et officiis suscipit et atque
+                            voluptatibus nam magni doloribus eos tenetur omnis. Ea perspiciatis necessitatibus ea doloremque
+                            eius eum
+                            illo sint et voluptas ratione et laudantium earum?<br>
+                        </p>
+                        <p style="color:#B5B5B5" class="mt-3 text text-center">Copyright 2022</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                    crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="css/style.css">
+            <script src="scripts/index.js"></script>
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script>
+                AOS.init();
+            </script>
+
+</body>
+
+</html>
