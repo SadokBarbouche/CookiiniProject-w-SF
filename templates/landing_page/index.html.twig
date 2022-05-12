@@ -20,7 +20,6 @@
 </head>
 
 <body style="background-color:rgb(255, 129, 101)">
-
 <nav class="navbar navbar-expand-lg bg-transparent navbar-light animate glow delay-2 mb-5 pb-5" >
     <div class="container">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
@@ -33,37 +32,38 @@
         <div class="collapse navbar-collapse" id="navmenu">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item mx-1 mt-1 bg-transparent">
-                    <a href="index.html" style="color:#000000" class="hover-underline-animation text fs-6"  id="home">
+                    <a href="{{path('app_landing_page')}}" style="color:#000000" class="hover-underline-animation text fs-6"  id="home">
                         Home
                     </a>
                 </li>
                 <li class="nav-item mx-0 mt-1 bg-transparent">
-                    <a href="{{asset('')}}" style="color:#000000" class="hover-underline-animation text fs-6" id="community">
+                    <a href="{{path('app_community_page')}}" style="color:#000000" class="hover-underline-animation text fs-6" id="community">
                         Community
                     </a>
                 </li>
                 <li class="nav-item mx-1 mt-1 bg-transparent ">
-                    <a href="meals.php" style="color:#000000" class="hover-underline-animation text fs-6" id="meals">
+                    <a href="{{path('meals')}}" style="color:#000000" class="hover-underline-animation text fs-6" id="meals">
                         Meals
                     </a>
                 </li>
                 <li class="nav-item mx-1 mt-1 bg-transparent">
-                    <a href="blog.php" style="color:#000000" class="hover-underline-animation text fs-6"  id="blog">
+                    <a href="{{ path('app_blog') }}" style="color:#000000" class="hover-underline-animation text fs-6"  id="blog">
                         Blog
                     </a>
                 </li>
                 <li class="nav-item mx-1 mt-1 bg-transparent">
-                    <a href="contact.php" style="color:#000000" class="hover-underline-animation text fs-6" id="contact">
+                    <a href="{{ path('app_contact') }}" style="color:#000000" class="hover-underline-animation text fs-6" id="contact">
                         Contact
                     </a>
                 </li>
-                <li class="nav-item mx-1 mt-1"><a href="{{path('app_sign_in')}}" class="rounded-pill text fs-6">
-                        Sign in
-                    </a></li>
-                <li class="nav-item mx-1 mt-1 text fs-6" style="background-color: #000;"><a href="login.php" class="rounded-pill text fs-6" style="color:white;">
-                        Log in
-                    </a></li>
-
+                {%block login%}
+                    <li class="nav-item mx-1 mt-1"><a href="{{path('app_sign_in')}}" class="rounded-pill text fs-6">
+                            Sign in
+                        </a></li>
+                    <li class="nav-item mx-1 mt-1 text fs-6" style="background-color: #000;"><a href="{{path('app_login')}}" class="rounded-pill text fs-6" style="color:white;">
+                            Log in
+                        </a></li>
+                {%endblock%}
             </ul>
         </div>
     </div>
@@ -81,7 +81,7 @@
           </span>
             </p>
             <p class="text-center animate glow delay-2 explore-btn">
-                <a href="index.html#hwto" style="text-decoration:none; color: #000000;">Explore <svg
+                <a href="#hwto" style="text-decoration:none; color: #000000;">Explore <svg
                             xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-chevron-doub le-down" viewBox="0 0 16 16">
                         <path fill-rule="evenodd"

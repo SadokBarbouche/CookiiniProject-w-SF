@@ -1,7 +1,7 @@
-<div class="col-md-4 my-3">
-    <div class="card position-relative">
-        <div class="containerImg">
-            <img src="{%block img%}{%endblock%}" class="image card-img-top img-fluid py-3 px-3">
+<div class="col-md-4 my-3" >
+    <div class="card position-relative ">
+        <div class="containerImg" >
+            <img src="{%block img%}{%endblock%}" class="image card-img-top img-fluid py-3 px-3 " style="border-radius: 25px;">
 
             <div class="middle">
                 <div class="text">
@@ -31,7 +31,7 @@
                             </td>
                             <td class="text-start px-1"  >
                                 <b>
-                                    {%block rating%}4.5/5{%endblock%} <br><span style="font-size:10px ;color:black">(by 100 users)</span>
+                                    {%block rating%}4.5/5{%endblock%} <br><span style="font-size:10px ;color:black">(by {%block by%}100 {%endblock%}users)</span>
                                 </b>
                             </td>
                         </tr>
@@ -42,8 +42,8 @@
         </div>
 
         <div class="card-body">
-            <h5 class="card-title fluid" style="display:inline-block;"><a href="#" style="font-weight:bold;">Delicious Meal</a></h5>
-            <p class="text text-end" style="text-align:match-parent;display:inline;">10TD</p>
+            <h5 class="card-title fluid" style="display:inline-block;"><a href={{ meal.detail }} style="font-weight:bold;">{%block name%}Delicious Meal{%endblock%}</a></h5>
+            <p class="text text-end" style="text-align:match-parent;display:inline;">{%block price%}10TD{%endblock%}</p>
             <p class="card-text"></p>
         </div>
 
