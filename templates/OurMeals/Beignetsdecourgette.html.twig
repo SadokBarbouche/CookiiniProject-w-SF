@@ -18,8 +18,8 @@
     Beignets de courgette
 {%endblock%}
 {%block price%}
-    undef
+    <small>undef</small>
 {%endblock%}
-{%block link%}
-
-{%endblock%}
+{% block link %}
+    {{ path('app_food_components', {id:1}) }}
+{% endblock %}

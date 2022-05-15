@@ -15,8 +15,11 @@
     5/5
 {%endblock%}
 {%block price%}
-    Undef
+    <small>undef</small>
 {%endblock%}
 {%block name%}
     Chocolate Mousse
 {%endblock%}
+{% block link %}
+    {{ path('app_food_components', {id:5}) }}
+{% endblock %}

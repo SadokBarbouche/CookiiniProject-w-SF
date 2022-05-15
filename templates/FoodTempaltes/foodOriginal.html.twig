@@ -35,15 +35,15 @@
                                 </b>
                             </td>
                         </tr>
-
                     </table>
                 </div>
             </div>
         </div>
 
         <div class="card-body">
-            <h5 class="card-title fluid" style="display:inline-block;"><a href={{ meal.detail }} style="font-weight:bold;">{%block name%}Delicious Meal{%endblock%}</a></h5>
-            <p class="text text-end" style="text-align:match-parent;display:inline;">{%block price%}10TD{%endblock%}</p>
+            <h5 class="card-title fluid" style="display:inline-block;"><a href="{% block link %}{% endblock %}" style="font-weight:bold;">{%block name%}Delicious Meal{%endblock%}</a></h5>
+            <p class="text text-end" style="text-align:match-parent;display:inline;">
+                {%block price%}10TD{%endblock%}</p>
             <p class="card-text"></p>
         </div>
 

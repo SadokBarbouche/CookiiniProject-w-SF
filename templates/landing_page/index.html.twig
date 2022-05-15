@@ -19,8 +19,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@900&display=swap" rel="stylesheet">
 </head>
 
-<body style="background-color:rgb(255, 129, 101)">
-<nav class="navbar navbar-expand-lg bg-transparent navbar-light animate glow delay-2 mb-5 pb-5" >
+<body style="background-color:rgba(254, 243, 164, 0.5)">
+<nav class="navbar navbar-expand-lg bg-transparent navbar-light animate glow delay-2 mt-2 mb-5 pb-5" >
     <div class="container">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
             <span class="navbar-toggler-icon"></span>
@@ -71,15 +71,20 @@
 <div class="container container-fluid small shade5 my-5 py-5">
     <div class="row">
         <div class="animate glow delay-3 col-sm text-center">
-            <img src="img/4 (3).png" class="img-fluid text-center w-50 md-mb-5" alt="logo-img">
+            <br><br>
+            <img src="{{ asset('img/logo cookiini.png') }}" class="img-fluid text-center w-50 md-mb-5 w-75 h-75" alt="logo-img">
         </div>
-        <div class="col-sm animate glow delay-2">
-            <p class="title text-center display-1" style="font-family: 'Source Sans 3', sans-serif; color:#FFF9F0;">
-                COOKIINI <br>
-                <span style="font-family: 'Quicksand'; color:#FFF9F0" class="text-center display-6">
-            Be your own Chef.
-          </span>
-            </p>
+        <div class="col-sm animate glow delay-2 text-center">
+{#            <p class="title text-center display-1" style="font-family: 'Source Sans 3', sans-serif; color:#FFF9F0;">#}
+{#                COOKIINI <br>#}
+{#                <span style="font-family: 'Quicksand'; color:#FFF9F0" class="text-center display-6">#}
+{#            Be your own Chef.#}
+{#          </span>#}
+{#            </p>#}
+            <br><br><br><br><br><br><br>
+            <img src="{{ asset('img/Cookiini.png') }}" alt="" >
+
+            <img src="{{ asset('img/Be your own Chef.png') }}" alt="" >
             <p class="text-center animate glow delay-2 explore-btn">
                 <a href="#hwto" style="text-decoration:none; color: #000000;">Explore <svg
                             xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -95,10 +100,10 @@
     </div>
 </div>
 
-<div style="background-color: #EEEEEE;" id="hwto" data-aos="fade-up" data-aos-duration="1300">
-    <div class="container pt-4" style="background-color: #EEEEEE;">
+<div style="background-color: #FFF9F0;" id="hwto" data-aos="fade-up" data-aos-duration="1300">
+    <div class="container pt-4" style="background-color: #FFF9F0;">
         <div>
-            <h1 class="text-center display-6 how2" style="color: #FF8165;"><b>How to ?</b></h1>
+            <h1 class="text-center display-6 how2" style="color: #019267;"><b>How to ?</b></h1>
         </div>
         <div class="row">
             <div class="col-sm">
@@ -115,7 +120,7 @@
                 </center>
 
                 <p class="text text-center">
-                    Get your meal package within 24 hours
+                    Get your meal package within 48 hours
                 </p>
             </div>
             <div class="col-sm">
@@ -132,17 +137,18 @@
 <div>
     <div class="container" data-aos="fade-up" data-aos-duration="1300">
         <div class="pt-3">
-            <h1 class="text-center display-5" style="color: #EEEEEE;"><b>What are we ?</b></h1>
+            <h1 class="text-center display-5" style="color: #019267;"><b>What are we ?</b></h1>
         </div>
         <div class="row ">
             <div class="col-md-4 mb-5">
                 <img src="img/wrwe.png" class="img-fluid w-100 " alt="what are we?">
             </div>
-            <div class="col col-md mt-5">
-                <p>
-                    Lorem ipsum dolor sit amet. Id dolor necessitatibus ut harum pariatur et officiis suscipit et atque
-                    voluptatibus nam magni doloribus eos tenetur omnis. Ea perspiciatis necessitatibus ea doloremque eius eum
-                    illo sint et voluptas ratione et laudantium earum?</p>
+            <div class="col col-md mt-5 ">
+                <br>
+                <br>
+
+                <p class="fs-3">
+                    Cookiini is Tunisia's first high-quality food service platform that delivers pre-portioned fresh ingredients and authentic recipes to make tasty and healthy food at home.</p>
             </div>
         </div>
     </div>
@@ -150,15 +156,15 @@
     <div style=" background-color: #FFF9F0;" data-aos="fade-up" data-aos-duration="1300">
         <div class="container x">
             <div class="pt-5">
-                <h1 class="text-center display-5" style="color: #FF8165;"><b>About our platform ?</b></h1>
+                <h1 class="text-center display-5" style="color: #019267;"><b>About our platform ?</b></h1>
             </div>
             <div class="row ">
                 <div class="col col mt-5 descript">
-                    <p>
-                        Lorem ipsum dolor sit amet. Id dolor necessitatibus ut harum pariatur et officiis suscipit et atque
-                        voluptatibus nam magni doloribus eos tenetur omnis. Ea perspiciatis necessitatibus ea doloremque eius
-                        eum
-                        illo sint et voluptas ratione et laudantium earum?</p>
+                    <br>
+                    <br>
+                    <p class="fs-3">
+                        Our platform is user-friendly website whose purpose is to sell our meals' ingredients and recipes, a website that makes it easy for the customer to navigate through the different meals, categories as well as making all their orders.
+                    </p>
                 </div>
                 <div class="col mb-5">
                     <img src="img/abt.png" class="img-fluid mt-5" alt="what are we?">
@@ -166,21 +172,21 @@
             </div>
         </div>
 
-        <div style="background-color:rgb(255, 129, 101)" data-aos="fade-up" data-aos-duration="1300">
+        <div style="background-color:rgba(254, 243, 164, 0.5)
+
+" data-aos="fade-up" data-aos-duration="1300">
             <div class="container container-fluid">
                 <div class="pt-5">
-                    <h1 class="text-center display-5" style="color: #EEEEEE;"><b>About our products</b></h1>
+                    <h1 class="text-center display-5" style="color: #019267;"><b>About our products</b></h1>
                 </div>
                 <div class="row ">
                     <div class="col mb-5 text-center">
-                        <img src="img/abtproduct.png" class=" product mt-5 img-fluid" alt="what are we?">
+                        <img src="{{ asset('img/delivery-guy.png') }}" class=" product mt-5 img-fluid" alt="what are we?">
                     </div>
                     <div class="col col mt-5 text-center">
-                        <p>
-                            Lorem ipsum dolor sit amet. Id dolor necessitatibus ut harum pariatur et officiis suscipit et atque
-                            voluptatibus nam magni doloribus eos tenetur omnis. Ea perspiciatis necessitatibus ea doloremque
-                            eius
-                            eum illo sint et voluptas ratione et laudantium earum?</p>
+                        <br><br><br>
+                        <p class="fs-3">
+                            We provide 100% fresh ingredients picked with love and care to our beautiful customers from our trusted partners.</p>
                     </div>
 
                 </div>
@@ -188,26 +194,25 @@
             <div style="background-color: #FFF9F0;" id="onsocial" class="py-5" data-aos="fade-up" data-aos-duration="2000">
                 <div class="container">
                     <div>
-                        <h1 class="text-center display-5" style="color: #FF8165;"><b>Find us on social media </b></h1>
+                        <h1 class="text-center display-5" style="color: #019267;"><b>Find us on social media </b></h1>
                     </div>
                     <div class="row">
                         <div class="col py-5">
-                            <a href=""><img src="img/facebook.png" data-aos="fade-down" data-aos-duration="2000" class="socialmedia  img-fluid" alt=""></a>
+                            <a href="https://www.facebook.com/Cookiini-114400711240520/"><img src="img/facebook.png" data-aos="fade-down" data-aos-duration="2000" class="socialmedia  img-fluid" alt=""></a>
                         </div>
                         <div class="col py-5">
-                            <a href=""><img src="img/insta.png" data-aos="fade-down" data-aos-duration="2000" class="socialmedia img-fluid" alt=""></a>
+                            <a href="https://www.instagram.com/cookiini__/"><img src="img/insta.png" data-aos="fade-down" data-aos-duration="2000" class="socialmedia img-fluid" alt=""></a>
                         </div>
                         <div class="col py-5">
-                            <a href=""><img src="img/linkedin.png" data-aos="fade-down" data-aos-duration="2000" class="socialmedia  img-fluid" alt=""></a>
+                            <a href="https://www.linkedin.com/company/cookiini/about/"><img src="img/linkedin.png" data-aos="fade-down" data-aos-duration="2000" class="socialmedia  img-fluid" alt=""></a>
                         </div>
                     </div>
                     <hr class="bg-danger border-2 border-top border-danger">
                     <div>
                         <p class="text text-center">
-                            Lorem ipsum dolor sit amet. Id dolor necessitatibus ut harum pariatur et officiis suscipit et atque
-                            voluptatibus nam magni doloribus eos tenetur omnis. Ea perspiciatis necessitatibus ea doloremque
-                            eius eum
-                            illo sint et voluptas ratione et laudantium earum?<br>
+                            This project was made by a group of entrepreneurship enthusiast INSAT and TBS students who are willing to
+                            deliver the best experience for the customers . We are motivated and driven to expand our idea all over Africa .
+                            Whether you’re looking for Keto, Sugar free, Vegan, Gluten free, or just kid friendly meals, we strive to have tasty, flavorful food for everyone! <br>
                         </p>
                         <p style="color:#B5B5B5" class="mt-3 text text-center">Copyright 2022</p>
 
